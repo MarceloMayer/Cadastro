@@ -1,0 +1,53 @@
+body{
+    background-color: #f8f8f8;
+}
+/*form*/
+
+#form-container{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+    margin: 25px auto;
+    padding: 25px;
+}
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+#form-container a{
+    color: #222;
+    transition: 0.5s;
+}
+#form-container a:hover{
+    color: #6C63ff;
+}
+#form-container form{
+  padding-bottom: 50px;
+}
+#form-container .form-control{
+   border: none;
+   border-bottom: 1px solid #ccc;
+   border-radius: 0;
+}
+#form-container .form-control:focus{
+    box-shadow: none;/*remove borda azul do bootstrapp qnd clica*/
+}
+#form-container .form-floating label{
+    color: #ccc;
+}
+#form-container .form-floating > .form-control:focus~label{
+    color: #222;
+}
+#form-container input[type="submit"]{
+    background-color: #6C63ff;
+    border-color: #6C63ff;
+}
+/* IMAGE*/
+.row.align-items-center{
+    align-content: center;
+    height: 100%;
+}
+#link-container{
+   text-align: center; 
+   padding-top: 50px;
+}
